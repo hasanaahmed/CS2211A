@@ -1,0 +1,26 @@
+Script started on Wed Oct 31 22:48:18 2018
+[?1034hbash-3.2$ gcc -o hi display.c
+bash-3.2$ ./hi
+Enter an integer you wish to be displayed: 56739
+ _  _  _  _  _ 
+|_ |_   | _||_|
+ _||_|  | _| _|
+Do you want to continue? (Y/N): Y
+Enter an integer you wish to be displayed: -4572
+       _  _  _ 
+ _ |_||_   | _|
+     | _|  ||_ 
+Do you want to continue? (Y/N): Y
+Enter an integer you wish to be displayed: j
+You entered an invalid input!
+bash-3.2$ ./hi
+Enter an integer you wish to be displayed: -4888
+       _  _  _ 
+ _ |_||_||_||_|
+     ||_||_||_|
+Do you want to continue? (Y/N): N
+Exiting!
+bash-3.2$ quit[K[K[K[Kexit
+exit
+
+Script done on Wed Oct 31 22:49:13 2018
