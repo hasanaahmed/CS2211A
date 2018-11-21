@@ -1,0 +1,60 @@
+Script started on Fri Nov 16 00:39:28 2018
+[?1034hbash-3.2$ gcc -o hi bst,[K.c data.c main.c
+bash-3.2$ ./hi
+Enter the name of the file to read in (include.txt): read_in.txt
+(!           99)      9
+(Once        1)      11
+(Once        5)      50
+(Time        4)      44
+(Upon        22)      2
+(Vancouver   8)      88
+(a           3)      33
+(filmed      6)      66
+(in          7)      77
+(is          5)      55
+bash-3.2$ ./hi
+Enter the name of the file to read in (include.txt): read_in2.txt
+(I           3)      26
+(This        7)      17
+(a           31)      6
+(am          9)      97
+(assignment  99)      9
+(code        3)      20
+(for         7)      97
+(is          32)      2
+(my          62)      7
+(now         4)      13
+(out         3)      10
+(random      6)      24
+(right       2)      60
+(test        7)      25
+(testing     1)      98
+(this        8)      88
+bash-3.2$ ./hi
+Enter the name of the file to read in (include.txt): arrayOOBerror.txt
+Array out of bound error
+Array out of bound error
+Array out of bound error
+(I           3)      26
+(This        7)      17
+(a           31)      6
+(am          9)      97
+(assignment  99)      9
+(code        3)      20
+(for         7)      97
+(is          32)      2
+(lol         3)      93
+(lol         7)      73
+(my          62)      7
+(now         4)      13
+(out         3)      10
+(random      6)      24
+(right       2)      60
+(right       5)      40
+(test        7)      25
+(testing     1)      98
+(this        8)      88
+bash-3.2$ exit
+exit
+
+Script done on Fri Nov 16 00:40:28 2018
