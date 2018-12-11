@@ -1,0 +1,46 @@
+Script started on Wed Dec  5 17:50:02 2018
+[?1034hbash-3.2$ make
+gcc -o mymatrix main.c matrix.o bstree.o datatype.o
+bash-3.2$ ./mymatrix
+Welcome to Hasan's Matrix
+Enter items in the exact order: 'ITEM 1' 'ITEM 2'
+Without the quotes, and WITH a space between ITEM 1 and ITEM 2.
+
+    Hit 'CTRL-D' then ENTER/RETURN to quit.
+bba aa
+aab aab
+bba aa
+aab abb
+bba aaa
+^D
+String 1       String 2       Occurrence  
+aab            aab            1              
+aab            abb            1              
+bba            aa             2              
+bba            aaa            1              
+
+bash-3.2$ ./mymatrix
+Welcome to Hasan's Matrix
+Enter items in the exact order: 'ITEM 1' 'ITEM 2'
+Without the quotes, and WITH a space between ITEM 1 and ITEM 2.
+
+    Hit 'CTRL-D' then ENTER/RETURN to quit.
+aba bb
+ba bbb
+ba aba
+aba bb
+aba bb
+aa abb
+^D
+String 1       String 2       Occurrence  
+aa             abb            1              
+aba            bb             3              
+ba             aba            1              
+ba             bbb            1              
+
+bash-3.2$ make clean
+rm -f *.o core
+bash-3.2$ exit
+exit
+
+Script done on Wed Dec  5 17:51:38 2018
